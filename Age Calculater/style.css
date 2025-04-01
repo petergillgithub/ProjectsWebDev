@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(225, 217, 217);
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 6rem;
+  letter-spacing: 1rem;
+}
+h4 {
+  font-size: 1.3rem;
+  color: crimson;
+}
+
+input {
+  height: 4rem;
+  width: 40rem;
+  font-size: 1.9rem;
+}
+button {
+  font-size: 1rem;
+  padding: 5px 15px;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 1px 1px 10px 10px white;
+}
+
+p {
+  font-size: 4rem;
+  color: green;
+  margin-top: 20px;
+}
