@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #11121e;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  line-height: 20px;
+  padding: 30px;
+  overflow: visible;
+}
+/* Bubbles Animation start */
+/* canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+} */
+/* Bubbles Animation end */
+
+img {
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  right: 2;
+}
+
+.candidate-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+  box-shadow: 15px 5px 30px 10px gray;
+  width: 100rem;
+  margin-left: 10%;
+  border: goldenrod 2px solid;
+  /* border-radius: 100px; */
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+/* Name Peter Gill */
+.candidate-info h1 {
+  color: gold;
+  font-style: italic;
+  /* letter-spacing: 40px; */
+  line-height: 10px;
+  font-weight: bold;
+  text-shadow: #fc0 1px 0 10px;
+  transition: 2s;
+}
+
+.candidate-info h1:hover {
+  color: hsl(44, 85%, 5%);
+  letter-spacing: 60px;
+  /* color: red; */
+  font-size: 3rem;
+}
+
+.candidate-info h2 {
+  transition: 2s;
+}
+.candidate-info h2:hover {
+  letter-spacing: 20px;
+  font-size: 2rem;
+  color: black;
+}
+
+/* Summary Word H1 */
+h1,
+h2 {
+  color: gold;
+  font-style: italic;
+  letter-spacing: 5px;
+  text-shadow: #fc0 1px 0 10px;
+  cursor: pointer;
+  transition: 2s ease-out;
+}
+
+h1,
+h2:hover {
+  color: rgb(255, 98, 0);
+  letter-spacing: 20px;
+}
+.summary h1 {
+  position: relative;
+  transition: 2s;
+  letter-spacing: 10px;
+  width: 100px;
+  /* animation-name: summaryanimation;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite; */
+}
+
+/* @keyframes summaryanimation {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+} */
+
+.summary h1:hover {
+  letter-spacing: 30px;
+  color: red;
+}
+
+.summary-section ul li:hover {
+  color: gold;
+}
+/* Languages Speak */
+.languages {
+  box-sizing: border-box;
+  box-shadow: 15px 5px 30px 10px gray;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: goldenrod 1px solid;
+}
+.languages ul li {
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.languages ul li:hover {
+  color: gold;
+}
+
+/* Job Portal */
+.jobPortal {
+  box-sizing: border-box;
+  box-shadow: 15px 5px 30px 10px gray;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: goldenrod 1px solid;
+}
+
+.jobPortal ul li {
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.jobPortal ul li:hover {
+  color: gold;
+}
+/* Company Info */
+.companiesInfo {
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.companiesInfo th,
+.companiesInfo td {
+  padding: 8px;
+  border: 2px solid #ddd;
+}
+
+.companiesInfo tr:nth-child(even) {
+  background-color: #3b3737;
+}
+.companiesInfo tr:hover {
+  color: gold;
+  cursor: pointer;
+}
+
+.companiesInfo th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #060807;
+  color: white;
+}
+
+.company-details p:hover {
+  color: gold;
+}
+
+.company-details ul li:hover {
+  color: gold;
+}
+
+strong {
+  transition: 3s;
+}
+strong:hover {
+  letter-spacing: 5px;
+  color: goldenrod;
+}
+
+/* Education Section */
+.education {
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.education th,
+.education td {
+  padding: 8px;
+  border: 2px solid #ddd;
+}
+
+.education tr:nth-child(even) {
+  background-color: #3b3737;
+}
+.education tr:hover {
+  color: gold;
+  cursor: pointer;
+}
+
+.companiesInfo th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #060807;
+  color: white;
+}
