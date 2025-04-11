@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Prime Number Checker</h2>
+      <div class="inputContainer">
+        <input id="input" type="text" placeholder="Write Number" />
+        <button id="checkBtn">Check</button>
+      </div>
+      <div class="result">
+        <p id="resultstatus"></p>
+      </div>
+    </div>
+
+    <script>
+      const input = document.getElementById("input");
+      const checkBtn = document.getElementById("checkBtn");
+      const resultStatus = document.getElementById("resultstatus");
+
+      checkBtn.addEventListener("click", () => {
+        const num = parseInt(input.value);
+
+        if (isNaN(num) || num < 1) {
+          resultStatus.textContent = "Please enter a valid positive number.";
+          return;
+        }
+
+        if (isPrime(num)) {
+          resultStatus.textContent = `${num} is a Prime Number ✅`;
+        } else {
+          resultStatus.textContent = `${num} is NOT a Prime Number ❌`;
+        }
+      });
+
+      function isPrime(n) {
+        if (n < 2) return false;
+        for (let i = 2; i <= Math.sqrt(n); i++) {
+          if (n % i === 0) return false;
+        }
+        return true;
+      }
+    </script>
+  </body>
+</html>
