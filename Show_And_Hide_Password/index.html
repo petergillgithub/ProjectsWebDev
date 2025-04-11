@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <label for="passes">Enter Password</label>
+      <div class="input-container">
+        <input id="passes" placeholder="Your password" type="password" />
+        <span class="eye-icon" id="eye-icon"> 👁️ </span>
+      </div>
+    </div>
+
+    <script>
+      const password = document.getElementById("passes");
+      const eye_icon = document.getElementById("eye-icon");
+
+      eye_icon.addEventListener("click", () => {
+        if (password.type === "password") {
+          password.type = "text";
+          eye_icon.textContent = "🙈";
+        } else {
+          password.type = "password";
+          eye_icon.textContent = "👁️";
+        }
+      });
+    </script>
+  </body>
+</html>
