@@ -1,213 +1,501 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body
-    class="bg-[url(https://www.foodiesfeed.com/wp-content/uploads/2023/05/freshly-prepared-beef-steak-with-vegetables.jpg)] bg-center bg-no-repeat bg-cover"
-  >
-    <div class="bg-yellow-50 my-10 mx-50 font-serif">
-      <header class="bg-[url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D)] bg-center bg-cover h-65 mb-10 shadow-md sticky">
-        <div class="flex justify-center -space-x-14">
-          <div class="bg-yellow-500 mix-blend-multiply w-20 h-20 rounded-full mt-2"></div>
-          <div class="bg-green-500 mix-blend-multiply w-20 h-20 rounded-full mt-2"></div>
+  <body class="bg-gray-950">
+    <div>
+      <header
+        class="text-white flex flex-row justify-between items-center py-5 px-20"
+      >
+        <!-- Left Heder Section -->
+        <div class="flex flex-row items-center">
+          <img
+            class="px-2 h-15"
+            src="https://cdn-icons-png.freepik.com/256/5968/5968852.png?ga=GA1.1.857235899.1746864839&semt=ais_hybrid"
+            alt="Youube-Icon "
+          />
+          <span class="text-white tracking-wider text-3xl relative"
+            >YouTube
+          </span>
+          <p class="absolute top-10 right-470">gb</p>
         </div>
-        
-        <h1 class="text-5xl text-shadow-black  tracking-widest px-6 py-3 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-120 animate-bounce hover:text-green-400 ">
-          Yoko's Kitchen
-        </h1>
-        <h3 class="px-6  text-2xl">Japanese cooking classes</h3>
+        <!-- middle Section -->
+        <div class="flex items-center">
+          <input
+            class="bg-black px-100 py-4 rounded-l-full focus:outline-none border-1 text-left placeholder:text-left"
+            type="text"
+            placeholder="Search "
+          />
+          <button
+            class="bg-gray-900 px-10 py-5 rounded-r-full focus:outline-none"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              class="h-5 w-5 text-white"
+            >
+              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+              />
+            </svg>
+          </button>
 
-        <nav class="bg-gray-400 shadow-lg">
-          <ul class="flex gap-6 my-4 mx-2 justify-start text-white">
-            <li class="text-yellow-300 font-bold italic hover:text-black hover:scale-120 animate-bounce">
-              <a href="#" class="current">Home</a>
-            </li>
-            <li class="text-yellow-300 font-bold italic hover:text-black transform hover:scale-120 animate-bounce">
-              <a href="#">Classes</a>
-            </li>
-            <li class="text-yellow-300 font-bold italic hover:text-black hover:scale-120 animate-bounce">
-              <a href="#">catering</a>
-            </li>
-            <li class="text-yellow-300 font-bold italic hover:text-black hover:scale-120 animate-bounce">
-              <a href="#">about</a>
-            </li>
-            <li class="text-yellow-300 font-bold italic hover:text-black hover:scale-120 animate-bounce">
-              <a href="#">contact</a>
-            </li>
-          </ul>
-        </nav>
+          <button
+            class="ms-10 bg-gray-900 py-4 px-5 rounded-full hover:bg-gray-800"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 384 512"
+              class="h-7"
+            >
+              <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M192 0C139 0 96 43 96 96l0 160c0 53 43 96 96 96s96-43 96-96l0-160c0-53-43-96-96-96zM64 216c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c0 89.1 66.2 162.7 152 174.4l0 33.6-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l72 0 72 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-33.6c85.8-11.7 152-85.3 152-174.4l0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-40z"
+              />
+            </svg>
+          </button>
+        </div>
+        <!-- Left right Section -->
+        <div class="flex items-center">
+          <button
+            class="bg-gray-900 py-4 px-8 rounded-full text-2xl tracking-widest hover:bg-gray-800 inset-ring-1"
+          >
+            <span class="text-white px-2">+</span> Create
+          </button>
+          <i></i>
+          <div class="flex items-center pl-10">
+            <img
+              class="rounded-full h-12 shadow-2xl"
+              src="https://yt3.ggpht.com/zHrYc44fYrO-TwLtv4oRYqDprv7z4Oneyy5vkEgi8xgXP_Q2KMei5lH1lVYTmnz1EhXwrXo_7A=s108-c-k-c0x00ffffff-no-rj"
+              alt="Profile Pic"
+            />
+          </div>
+        </div>
       </header>
-
-      <!-- Articles -->
-      <div >
-      <div class="mx-10 my-5 flex flex-col gap-10 relative">
-        <article>
-          <figure>
-            <img
-              class="rounded-2xl mb-4 shadow-2xl"
-              src="https://media.istockphoto.com/id/1737369497/photo/cooking-garlic-and-soy-roasted-baby-bok-choy.jpg?b=1&s=612x612&w=0&k=20&c=TiSXGR0EI6zqINm1rU_0Xw4Ty91NF5sgxNf3og-6yMw="
-              alt="Bok Choi"
-            />
-            <figcaption>Bok Chai</figcaption>
-          </figure>
-          <!-- Course Info -->
-          <div class="absolute top-1 left-180 flex flex-col">
-            <hgroup
-              class="font-semibold tracking-wide text-base/8 mb-2 flex flex-col flex-wrap"
-            >
-              <h2 class="text-4xl mb-2 tracking-wider font-serif">Japanese Vegetarian</h2>
-              <h3 class="text-red-700 text-2xl">Five week course in London</h3>
-            </hgroup>
-            <p class="text-wrap " > 
-            five week introduction to traditional Japanese vegetarian meals,</p>
-              <p>
-                teaching you a selection of rice and noodle dishes.
-              </p>
-            
-          </div>
-        </article>
-      </div>
-
-
-      <div class="mx-10 my-5 flex flex-col gap-10 relative ">
-        <article>
-          <figure>
-            <img
-              class="rounded-2xl shadow-2xl mb-4"
-              src="https://media.istockphoto.com/id/1996397217/photo/stir-fry-turkey-slices-with-red-paprika-mushrooms-chives-and-sesame-seeds-with-ginger-garlic.jpg?b=1&s=612x612&w=0&k=20&c=z6JGGlIVrzgG6lRhRlgkfBuAi4D1Wto89brAQGIQXqs="
-              alt="Teriyaki"
-            />
-            <figcaption>Teriyaki Sauce</figcaption>
-          </figure>
-
-          <!-- Course Info -->
-          <div class="absolute top-1 left-180 flex flex-col">
-            <hgroup
-              class="font-semibold tracking-wide text-base/8 mb-2 flex flex-col flex-wrap"
-            >
-              <h2 class="text-4xl mb-2 tracking-wider">Sauces Masterclass</h2>
-              <h3 class="text-red-700 text-2xl">One Day Workshop</h3>
-            </hgroup>
-            <p>
-             An  Intenive one-day course looking at how to create the most delicious</p>
-             <p> sauces for use in a range of Japanese cookery.</p>
-            
-          </div>
-        </article>
-      </div>
-      <div class="mx-10 my-5 flex flex-col gap-10 relative ">
-        <article>
-          <figure>
-            <img
-              class="rounded-2xl shadow-2xl mb-4 w-155 h-110"
-              src="https://www.foodiesfeed.com/wp-content/uploads/ff-images/2025/01/colorful-bowl-of-deliciousness-with-fried-egg.png"
-              alt="Egg"
-            />
-            <figcaption>Teriyaki Sauce</figcaption>
-          </figure>
-
-          <!-- Course Info -->
-          <div class="absolute top-1 left-180 flex flex-col">
-            <hgroup
-              class="font-semibold tracking-wide text-base/8 mb-2 flex flex-col flex-wrap"
-            >
-              <h2 class="text-4xl mb-2 tracking-wider">Sauces Masterclass</h2>
-              <h3 class="text-red-700 text-2xl">One Day Workshop</h3>
-            </hgroup>
-            <p>
-             An  Intenive one-day course looking at how to create the most delicious</p>
-             <p> sauces for use in a range of Japanese cookery.</p>
-            
-          </div>
-        </article>
-      </div>
-
-      <div class="mx-10 my-5 flex flex-col gap-10 relative  rounded-2xl ">
-        <article>
-          <figure>
-            <img
-              class="rounded-2xl shadow-2xl mb-4 w-155 h-110"
-              src="https://www.foodiesfeed.com/wp-content/uploads/2023/10/bowl-of-ice-cream-with-chocolate.jpg"
-              alt="Ice-Cream"
-            />
-            <figcaption>Teriyaki Sauce</figcaption>
-          </figure>
-
-          <!-- Course Info -->
-          <div class="absolute top-1 left-180 flex flex-col">
-            <hgroup
-              class="font-semibold tracking-wide text-base/8 mb-2 flex flex-col flex-wrap"
-            >
-              <h2 class="text-4xl mb-2 tracking-wider">Sauces Masterclass</h2>
-              <h3 class="text-red-700 text-2xl">One Day Workshop</h3>
-            </hgroup>
-            <p>
-             An  Intenive one-day course looking at how to create the most delicious</p>
-             <p> sauces for use in a range of Japanese cookery.</p>
-            
-          </div>
-        </article>
-      </div>
-      </div>
-
-
-
-      
-      <!-- ASIDES -->
-      <div class="absolute top-84 left-400">
-        <!-- popular recipes -->
-        <div class="mb-10">
-        <aside >
-          <section class="flex flex-col gap-5">
-            <h2 class="text-4xl  tracking-wider font-serif font-semibold mb-4" >Popular Recipes</h2>
-            <a class="text-red-800 hover:underline" href="">Yakitori (grilled chicken)</a>
-            <a class="text-red-800 hover:underline" href="">Tsukune (minced chicken patties)</a>
-            <a class="text-red-800 hover:underline" href="">Okonomiyaki (savory pancakes)</a>
-            <a  class="text-red-800 hover:underline " href="">Mizutaki (chicken stew)</a>
-          </section>
-        </div>
-
-        
-          <section class="flex flex-col">
-            <h2 class="text-4xl  tracking-wider font-serif font-semibold mb-4">Contact</h2>
-            <p class="text-red-800 hover:underline text-base/6" >
-              Yoko's Kitchen<br />
-              27 Redchurch Street<br />
-              Shoreditch<br />
-              London E2 7DP
-            </p>
-          </section>
-       
-        </aside>
-      </div>
-
-      <div class="bg-red-400 h-30 my-h max-w-screen flex justify-center flex-col items-center shadow-lg">
-        <article class="text-white font-extrabold text-normal">
-         
-          <p>Try these classes to stay fit and save time...</p>
-          <footer>
-            <p>Written by Jane Doe | Last updated: May 10, 2025</p>
-            <p>&copy; 2025 MyWebsite. All rights reserved.</p>
-  <nav>
-    <a href="/privacy-policy">Privacy Policy</a> |
-    <a href="/contact">Contact</a>
-  </nav>
-          </footer>
-        </article>
-
-        <div class="size-20 transform-3d ...">
-          <div class="translate-z-12 rotate-x-0 bg-sky-300/75 ...">1</div>
-          <div class="-translate-z-12 rotate-y-18 bg-sky-300/75 ...">2</div>
-          <div class="translate-x-12 rotate-y-90 bg-sky-300/75 ...">3</div>
-          <div class="-translate-x-12 -rotate-y-90 bg-sky-300/75 ...">4</div>
-          <div class="-translate-y-12 rotate-x-90 bg-sky-300/75 ...">5</div>
-          <div class="translate-y-12 -rotate-x-90 bg-sky-300/75 ...">6</div>
-        </div>
     </div>
+
+    <!-- hero content -->
+    <div class="grid grid-cols-3 float-right gap-6 px-20">
+      <!-- 1st Picture -->
+      <div
+        class="relative rounded-2xl py-3 px-3 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100 hover:bg-gray-900"
+      >
+        <img
+          class="h-80 rounded-2xl mb-5 object-cover"
+          src="https://images.unsplash.com/photo-1746950862738-399b20e6f0eb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
+
+        <figcaption class="absolute z-10 text-white p-2">
+          <span class="font-sans text-white"
+            >Immigration Watch with Harjap Sign Bhangal</span
+          >
+          <p class="text-gray-300 tracking-wide">harjapbhangal</p>
+          <p class="text-gray-300 tracking-wide">18K view . 3 days ago</p>
+          <p class="text-white absolute top-70 left-105">47:30</p>
+        </figcaption>
+      </div>
+
+      <!-- 2nd Picture -->
+      <div
+        class="relative rounded-2xl py-3 px-3 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100 hover:bg-gray-900"
+      >
+        <img
+          class="h-80 rounded-2xl mb-5"
+          src="https://images.unsplash.com/photo-1485662543942-9ab24cc0acf0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmlkZW9zfGVufDB8fDB8fHww"
+          alt=""
+        />
+        <figcaption>
+          <span class="font-sans text-white"
+            >Immigration Watch with Harjap Sign Bhangal</span
+          >
+          <p class="text-gray-300 tracking-wide">harjapbhangal</p>
+          <p class="text-gray-300 tracking-wide">18K view . 3 days ago</p>
+          <p class="text-white absolute top-70 left-105">47:30</p>
+        </figcaption>
+      </div>
+      <!-- 3 Picture -->
+      <div
+        class="relative rounded-2xl py-3 px-3 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100 hover:bg-gray-900"
+      >
+        <img
+          class="h-80 rounded-2xl mb-5"
+          src="https://images.unsplash.com/photo-1553166272-e69910ab5ae1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dmlkZW9zfGVufDB8fDB8fHww"
+          alt=""
+        />
+        <figcaption>
+          <span class="font-sans text-white"
+            >Immigration Watch with Harjap Sign Bhangal</span
+          >
+          <p class="text-gray-300 tracking-wide">harjapbhangal</p>
+          <p class="text-gray-300 tracking-wide">18K view . 3 days ago</p>
+          <p class="text-white absolute top-70 left-105">47:30</p>
+        </figcaption>
+      </div>
+      <!-- 4 Picture -->
+
+      <div
+        class="relative rounded-2xl py-3 px-3 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100 hover:bg-gray-900"
+      >
+        <img
+          class="h-80 rounded-2xl mb-5"
+          src="https://images.unsplash.com/photo-1496559249665-c7e2874707ea?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dmlkZW9zfGVufDB8fDB8fHww"
+          alt=""
+        />
+        <figcaption>
+          <span class="font-sans text-white"
+            >Immigration Watch with Harjap Sign Bhangal</span
+          >
+          <p class="text-gray-300 tracking-wide">harjapbhangal</p>
+          <p class="text-gray-300 tracking-wide">18K view . 3 days ago</p>
+          <p class="text-white absolute top-70 left-105">47:30</p>
+        </figcaption>
+      </div>
+      <!-- 5Picture -->
+
+      <div
+        class="relative rounded-2xl py-3 px-3 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100 hover:bg-gray-900"
+      >
+        <img
+          class="h-80 rounded-2xl mb-5"
+          src="https://images.unsplash.com/photo-1548884655-803db09fcbf6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHZpZGVvc3xlbnwwfHwwfHx8MA%3D%3D"
+          alt=""
+        />
+        <figcaption>
+          <span class="font-sans text-white"
+            >Immigration Watch with Harjap Sign Bhangal</span
+          >
+          <p class="text-gray-300 tracking-wide">harjapbhangal</p>
+          <p class="text-gray-300 tracking-wide">18K view . 3 days ago</p>
+          <p class="text-white absolute top-70 left-105">47:30</p>
+        </figcaption>
+      </div>
+      <!-- 6 Picture -->
+
+      <div
+        class="relative rounded-2xl py-3 px-3 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100 hover:bg-gray-900"
+      >
+        <img
+          class="h-80 rounded-2xl mb-5"
+          src="https://media.istockphoto.com/id/1477470638/photo/man-recording-video-for-blog.webp?a=1&b=1&s=612x612&w=0&k=20&c=5EH11U_u3diKlHyLE2J5hZEr70h1J-r-ZH8Ugrp5gnA="
+          alt=""
+        />
+        <figcaption>
+          <span class="font-sans text-white"
+            >Immigration Watch with Harjap Sign Bhangal</span
+          >
+          <p class="text-gray-300 tracking-wide">harjapbhangal</p>
+          <p class="text-gray-300 tracking-wide">18K view . 3 days ago</p>
+          <p class="text-white absolute top-70 left-105">47:30</p>
+        </figcaption>
+      </div>
+
+      <!-- 7 Picture -->
+
+      <div
+        class="relative rounded-2xl py-3 px-3 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100 hover:bg-gray-900"
+      >
+        <img
+          class="h-80 rounded-2xl mb-5"
+          src="https://media.istockphoto.com/id/1287824034/photo/tap-tok.webp?a=1&b=1&s=612x612&w=0&k=20&c=4mz5WF8cG91HLzxMowYdVDjmn9aZ_l_YLFu783V7Ewk="
+          alt=""
+        />
+        <figcaption>
+          <span class="font-sans text-white"
+            >Immigration Watch with Harjap Sign Bhangal</span
+          >
+          <p class="text-gray-300 tracking-wide">harjapbhangal</p>
+          <p class="text-gray-300 tracking-wide">18K view . 3 days ago</p>
+          <p class="text-white absolute top-70 left-105">47:30</p>
+        </figcaption>
+      </div>
+
+      <!-- 8 Picture -->
+
+      <div
+        class="relative rounded-2xl py-3 px-3 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100 hover:bg-gray-900"
+      >
+        <img
+          class="h-80 rounded-2xl mb-5"
+          src="https://images.unsplash.com/photo-1747171232978-0e1cbcbcbdf8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
+        <figcaption>
+          <span class="font-sans text-white"
+            >Immigration Watch with Harjap Sign Bhangal</span
+          >
+          <p class="text-gray-300 tracking-wide">harjapbhangal</p>
+          <p class="text-gray-300 tracking-wide">18K view . 3 days ago</p>
+          <p class="text-white absolute top-70 left-105">47:30</p>
+        </figcaption>
+      </div>
+
+      <!-- 9 Picture -->
+
+      <div
+        class="relative rounded-2xl py-3 px-3 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100 hover:bg-gray-900"
+      >
+        <img
+          class="h-80 rounded-2xl mb-5"
+          src="https://media.istockphoto.com/id/1477470662/photo/woman-recording-video-for-blog.jpg?s=612x612&w=0&k=20&c=mcqJDZhhYACq_mdNEPIFX-oF1BCixjnKJVyUiOYRwCg="
+          alt=""
+        />
+        <figcaption>
+          <span class="font-sans text-white"
+            >Immigration Watch with Harjap Sign Bhangal</span
+          >
+          <p class="text-gray-300 tracking-wide">harjapbhangal</p>
+          <p class="text-gray-300 tracking-wide">18K view . 3 days ago</p>
+          <p class="text-white absolute top-70 left-105">47:30</p>
+        </figcaption>
+      </div>
+      <!-- 10 Picture -->
+
+      <div
+        class="relative rounded-2xl py-3 px-3 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100 hover:bg-gray-900"
+      >
+        <img
+          class="h-80 rounded-2xl mb-5"
+          src="https://media.istockphoto.com/id/1302810320/photo/caucasian-mother-applying-healthy-skin-care-moisturizing-cream-on-cute-adorable-funny-african.jpg?s=612x612&w=0&k=20&c=htzW-9Vsfa71JfD1E8heA2i-8YBN3cWXvRgxWNQfC50="
+          alt=""
+        />
+        <figcaption>
+          <span class="font-sans text-white"
+            >Immigration Watch with Harjap Sign Bhangal</span
+          >
+          <p class="text-gray-300 tracking-wide">harjapbhangal</p>
+          <p class="text-gray-300 tracking-wide">18K view . 3 days ago</p>
+          <p class="text-white absolute top-70 left-105">47:30</p>
+        </figcaption>
+      </div>
+      <!-- 11 Picture -->
+
+      <div
+        class="relative rounded-2xl py-3 px-3 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100 hover:bg-gray-900"
+      >
+        <img
+          class="h-80 rounded-2xl mb-5"
+          src="https://media.istockphoto.com/id/2205323353/photo/teenagers-watching-online-videos-on-cellphone.jpg?s=612x612&w=0&k=20&c=-s4F9OBiYRw3LTSeHcJ4C5q4xvAgnqXW0XoeB1pk55g="
+          alt=""
+        />
+        <figcaption>
+          <span class="font-sans text-white"
+            >Immigration Watch with Harjap Sign Bhangal</span
+          >
+          <p class="text-gray-300 tracking-wide">harjapbhangal</p>
+          <p class="text-gray-300 tracking-wide">18K view . 3 days ago</p>
+          <p class="text-white absolute top-70 left-105">47:30</p>
+        </figcaption>
+      </div>
+      <!-- 12 Picture -->
+
+      <div
+        class="relative rounded-2xl py-3 px-3 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100 hover:bg-gray-900"
+      >
+        <img
+          class="h-80 rounded-2xl mb-5"
+          src="https://media.istockphoto.com/id/2185507940/photo/a-little-girl-uses-a-smartwatch-for-video-calls.jpg?s=612x612&w=0&k=20&c=JbDIM-h49xf5tuv3eXJe_vHakPCXLYJzeH9K4U_k4rs="
+          alt=""
+        />
+        <figcaption>
+          <span class="font-sans text-white"
+            >Immigration Watch with Harjap Sign Bhangal</span
+          >
+          <p class="text-gray-300 tracking-wide">harjapbhangal</p>
+          <p class="text-gray-300 tracking-wide">18K view . 3 days ago</p>
+          <p class="text-white absolute top-70 left-105">47:30</p>
+        </figcaption>
+      </div>
+    </div>
+
+    <!-- ASide -->
+
+    <div class="h-screen">
+      <!-- SideBar -->
+      <aside class="w-100 bg-black border-1 text-white border-gray-900 flex">
+        <ul class="p-6 space-y-2 py-12 flex flex-col gap-5 font-light">
+          <li class="flex gap-4 text-2xl px-10 hover:bg-gray-800 rounded-2xl">
+            <a href=""
+              ><svg
+                class="size-8"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-house-door"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"
+                /></svg
+            ></a>
+            Home
+          </li>
+          <li
+            class="flex gap-4 py-4 text-2xl px-10 hover:bg-gray-800 rounded-2xl"
+          >
+            <a href="Short"
+              ><svg
+                class="size-8"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-camera-reels"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0M1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0"
+                />
+                <path
+                  d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm6 8.73V7.27l-3.5 1.555v4.35zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1"
+                />
+                <path
+                  d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6M7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
+                /></svg
+            ></a>
+            Shorts
+          </li>
+          <li
+            class="flex gap-4 py-4 text-2xl px-10 hover:bg-gray-800 rounded-2xl"
+          >
+            <a href=""
+              ><svg
+                class="size-8"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-stop-btn"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6.5 5A1.5 1.5 0 0 0 5 6.5v3A1.5 1.5 0 0 0 6.5 11h3A1.5 1.5 0 0 0 11 9.5v-3A1.5 1.5 0 0 0 9.5 5z"
+                />
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"
+                /></svg
+            ></a>
+            Subscription
+          </li>
+          <hr />
+          <li
+            class="flex gap-4 py-4 text-2xl px-10 hover:bg-gray-800 rounded-2xl"
+          >
+            <a href=""
+              ><svg
+                class="size-8"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-alarm"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9z"
+                />
+                <path
+                  d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1zm1.038 3.018a6 6 0 0 1 .924 0 6 6 0 1 1-.924 0M0 3.5c0 .753.333 1.429.86 1.887A8.04 8.04 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5M13.5 1c-.753 0-1.429.333-1.887.86a8.04 8.04 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1"
+                /></svg
+            ></a>
+            History
+          </li>
+          <li
+            class="flex gap-4 py-4 text-2xl px-10 hover:bg-gray-800 rounded-2xl"
+          >
+            <a href=""
+              ><svg
+                class="size-8"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-file-music"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M10.304 3.13a1 1 0 0 1 1.196.98v1.8l-2.5.5v5.09c0 .495-.301.883-.662 1.123C7.974 12.866 7.499 13 7 13s-.974-.134-1.338-.377C5.302 12.383 5 11.995 5 11.5s.301-.883.662-1.123C6.026 10.134 6.501 10 7 10c.356 0 .7.068 1 .196V4.41a1 1 0 0 1 .804-.98z"
+                />
+                <path
+                  d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1"
+                /></svg
+            ></a>
+            Playlists
+          </li>
+          <li
+            class="flex gap-4 py-4 text-2xl px-10 hover:bg-gray-800 rounded-2xl"
+          >
+            <a href=""
+              ><svg
+                class="size-8"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-play-btn"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"
+                />
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"
+                /></svg
+            ></a>
+            Your videos
+          </li>
+          <li
+            class="flex gap-4 py-4 text-2xl px-10 hover:bg-gray-800 rounded-2xl"
+          >
+            <a href=""
+              ><svg
+                class="size-8"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-stopwatch"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5z"
+                />
+                <path
+                  d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64l.012-.013.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5M8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3"
+                /></svg
+            ></a>
+            Watch later
+          </li>
+          <li
+            class="flex gap-4 py-4 text-2xl px-10 hover:bg-gray-800 rounded-2xl"
+          >
+            <a href=""
+              ><svg
+                class="size-8"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-hand-thumbs-up"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2 2 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a10 10 0 0 0-.443.05 9.4 9.4 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a9 9 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.2 2.2 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.9.9 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"
+                /></svg
+            ></a>
+            Liked videos
+          </li>
+          <hr />
+          <li class="py-4 text-2xl px-10 hover:bg-gray-800 rounded-2xl">
+            Subscriptions
+          </li>
+        </ul>
+      </aside>
     </div>
   </body>
 </html>
